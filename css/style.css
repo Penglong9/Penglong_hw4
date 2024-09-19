@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+/* Section1 */
+.section1 .container {
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+}
+
+.section1 .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.section1 .col-6 {
+    width: 50%;
+    height: 600px;
+    position: relative;
+}
+
+.section1 .row .bg-blue {
+    background-color: #6aa2d2; 
+}
+
+.section1 .row .bg-red {
+    background-color: #f98981; 
+}
+
+.section1 .row .box {
+    width: 200px;
+    height: 200px;
+    background-color: #d66bd6; 
+    position: absolute;
+    top: 200px;
+    left: 620px;
+    z-index: 2;
+}
+/* Section2 */
+.section2 .container {
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+}
+
+.section2 .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.section2 .col-6 {
+    width: 50%;
+    height: 600px;
+    position: relative;
+}
+
+.section2 .row .bg-purple {
+    background-color: #7c6df0; 
+}
+
+.section2 .row .box {
+    width: 200px;
+    height: 200px;
+    background-color: #d66bd6; 
+    position: absolute;
+    top: 470px;
+    left: -100px;
+    z-index: 2;
+}
+/* section3 */
+.section3 .container {
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+}
+
+.section3 .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.section3 .col-6 {
+    width: 50%;
+    height: 600px;
+    position: relative;
+}
+
+.section3 .row .bg-blue {
+    background-color: #3018e4; 
+}
+
+.section3 .row .box {
+    width: 200px;
+    height: 200px;
+    background-color: #d66bd6; 
+    position: absolute;
+    top: 0px;
+    left: 620px;
+    z-index: 2;
+}
+ 
+/* section4 */
+.section4 .container {
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+}
+
+.section4 .row {
+    justify-content: space-between;
+   
+    display: flex;
+}
+.section4 .col-6 {
+    width: 50%;
+    height: 300px;
+    position: relative;
+}
+
+.section4 .row .bg-blue {
+    background-color: #6aa2d2; 
+}
+
+.section4 .row .bg-red {
+    background-color: #f98981; 
+}
+
+.section4 .row .box {
+    width: 200px;
+    height: 200px;
+    background-color: #d66bd6; 
+    position: absolute;
+    top: 200px;
+    left: 620px;
+    z-index: 2;
+}
+
+.section4 .row .col-12 {
+    width: 100%;
+    height: 300px; 
+    background-color: greenyellow;
+
+}
